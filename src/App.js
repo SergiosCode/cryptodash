@@ -1,9 +1,12 @@
 import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
 <div className="App" style={{backgroundColor: '#181821', height: '100vh'}}>
-     <h1 className=' text-2xl text-white'>Hello</h1>
+     <Navbar />
     </div>
   );
 }
